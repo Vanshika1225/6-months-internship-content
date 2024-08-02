@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table td,
+.table th {
+  padding: 5px 5px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+.table tr:hover {
+  background-color: #979191;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7c7173;
+  color: white;
+}
+.table thead{
+  border: 2px solid black;
+}
+
+.table .table-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table button {
+  margin-top: 7px;
+}
+
+.table .table-row p {
+  margin-top: 7px;
+  font-size: xx-large;
+  border: none;
+  color: var(--text-color);
+}
+.table th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2196f3;
+  color: white;
+}
+
+.add-button{
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  width: 50px;
+  margin-left: 1259px;
+  padding: 10px;
+  font-size: large;
+  margin-top: 20px ;
+  margin-bottom: 20px ;
+}
+
+.modal{
+  background-color: #2196f3;
+  color:white;
+  width: fit-content;
+}
+
+.modal-content{
+  padding: 20px;
+
+}
+
+.modal-content label,.modal-content input , .modal-content select{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.modal .modal-content span{
+  float: right;
+  padding-bottom: 30px;
+}
+
+.cols{
+  display: flex;
+  width: 526px;
+  justify-content: space-around;
+}
+.last-cols{
+  display: flex;
+  justify-content: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form{
+  text-align: center;
+}
+
+.form{
+  width: 700px;
+  background-color: rgb(240, 231, 231);
+  display: flex;
+  justify-content: center;
+  gap: 94px;
+  margin-left: 280px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+form{
+  margin-top: 100px;
+}

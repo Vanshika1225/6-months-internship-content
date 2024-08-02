@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(41, 38, 38);
+            color: white;
+            width: fit-content;
+            margin: auto;
+        }
+
+        .container h2 {
+            text-align: center;
+        }
+        .data{
+            margin-top: 30px;
+        }
+        .container {
+            margin-top: 110px;
+            background-color: rgb(71, 70, 70);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=email] {
+            width: 100%;
+            margin-top: 12px;
+            display: inline-block;
+            padding: 4px;
+            border: none;
+            background: #f1f1f1;
+            border-radius: 2px;
+        }
+        
+        .button{
+            width: 100%;
+            background-color: rgb(36, 33, 33);
+            border-radius: 12px;
+            color: whitesmoke;
+            padding: 12px;
+        }
+        .button:hover{
+            background-color: rgb(32, 27, 27);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <h2>Signup</h2>
+            <label for="username">UserName</label>
+            <input type="text" name="userName" id="userName">
+            <br>
+            <br>
+            email:<input type="email" name="email" id="email">
+            <br>
+            <br>
+            password: <input type="password" name="password" id="password">
+            <br>
+            <br>
+            <button class="button" type="button">Submit</button>
+        </form>
+    </div>
+    <div id="data"></div>
+    <script src="SignupPage.js"></script>
+</body>
+
+</html>

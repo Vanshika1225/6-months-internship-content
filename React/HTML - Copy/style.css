@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.hero-img {
+    background: url("download.jfif") no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 500px;
+    opacity: 0.9;
+}
+
+.hero-img .container nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hero-img nav {
+    color: white;
+}
+
+.hero-img .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-img nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+.hero-img nav ul li {
+    padding: 25px 13px;
+
+}
+
+.hero-img .container h2 {
+    padding: 25px 13px;
+}
+
+.hero-img .container .active {
+    color: orangered;
+}
+
+.navbar-Button {
+    margin: 15px 13px;
+    padding: 10px 18px;
+    background-color: green;
+    color: white;
+}
+
+.prev-next p {
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.prev-next {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.logo-section img {
+    width: 156px;
+    padding: 25px 13px;
+}
+
+.content {
+    color: white;
+    width: 450px;
+    position: absolute;
+    top: 150px;
+    left: 164px;
+}
+
+.content span {
+    color: orangered;
+}
+
+.content p {
+    width: 400px;
+    padding-top: 25px;
+}
+
+.hero-buttons {
+    padding-top: 25px;
+}
+
+.hero-buttons .button-1 {
+    margin-right: 20px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: 2px green;
+    border-radius: 3px;
+}
+.section-2{
+    /* width: auto; */
+    /* width: 1622px; */
+    /* margin-left: 80px; */
+}
+.hero-buttons .button-2 {
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    border: 2px orangered;
+    border-radius: 3px;
+}
+.content-1{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 79px 0px;
+    background-color: white;
+    display: flex;
+    padding: 39px;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section-2{
+    /* width: 1443px; */
+}
+@media (min-width: 320px) {
+    .hero-img {
+        width: 358%;
+    }
+
+    .hero-img .container h2 {
+        padding: 20px 64px;
+    }
+    .section-2{
+        /* width: 1150px; */
+    }
+    .grid-container{
+        /* grid-template-columns: auto; */
+        /* width: 100%px */
+    }
+
+    .content {
+        left: 90px;
+    }
+}
+
+@media (min-width: 375px) {
+    .hero-img {
+        width: 305%;
+    }
+
+    .hero-img .container h2 {
+        padding: 20px 64px;
+    }
+}
+
+@media (min-width: 425px) {
+    .hero-img {
+        width: 259%;
+    }
+
+    .hero-img nav ul {
+        left: 541px;
+    }
+
+    .content {
+        left: 84px;
+    }
+
+    .hero-img .container h2 {
+        padding: 20px 64px;
+    }
+    .section-2 .container .content-1{
+            /* width: 508px; */
+            grid-template-columns: auto auto auto;
+    }
+    .section-2{
+        /* width: 1101px; */
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-img nav ul {
+        left: 260px;
+    }
+
+    .hero-img .container h2 {
+        padding: 20px 64px;
+    }
+
+    .content {
+        left: 92px;
+    }
+    .section-2{
+        /* width: 767px; */
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        /* width: 1170px; */
+    }
+}
+@media (min-width: 1024px) {
+    .hero-img nav ul {
+        left: 408px;
+    }
+    .logo-section{
+        left: 50px;
+    }
+    .content {
+        left: 96px;
+    }
+    .section-2{
+        /* width: 1348px; */
+    }
+}
+@media (min-width: 1440px) {
+    .hero-img nav ul {
+        left: 647px;
+    }
+    
+    .content {
+        left: 164px;
+    }
+    .section-2{
+        /* width: 1443px; */
+    }
+}
+@media (min-width: 2560px) {
+    .section-2{
+        /* width: 2500px; */
+    }
+}

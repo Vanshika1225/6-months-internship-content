@@ -1,0 +1,15 @@
+{
+  "name": "formvalidation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hookform/error-message": "^2.0.1",
+    "react-hook-form": "^7.51.2"
+  }
+}
